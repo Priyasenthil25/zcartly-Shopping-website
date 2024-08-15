@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ZcarTly🛒</title>
+
+    <!--font styles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--my css style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>ZcarTly🛒</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home |</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections |</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div class="sidenavbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="sidenavbar-links">
+            <p class="sidenavbar-link"><a href="index.html">Home</a></p>
+            <p class="sidenavbar-link"><a href="collection.html">Collections</a></p>
+            <p class="sidenavbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+
+    <!--contact-->
+
+    <div class="contact-form">
+        <div class="components">
+        <div class="contact">
+        <h2>Contact Us</h2>
+        </div>
+        <form action="#" method="post">
+          <div>
+            <label margin-left="20%"   for="name">Name:</label>
+            <input type="text" class="name" name="name" required>
+          </div>
+    
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" class="email" name="email" required>
+          </div>
+    
+          <label for="message">Message:</label>
+          <textarea class="message" name="message" rows="4" required></textarea>
+
+          <input background-color="blue" class="submit" type="submit" value="Submit">
+       
+        </form>
+    </div>
+      </div>
+
+
+    <!--footer-->
+    <div class="footer">
+
+        <div class="footercontainer">
+            <div class="footerbox">
+                <h2 class="headingtext">ZcarTly</h2>
+                <p>Shop smart, shop easy. Download now and elevate your shopping experience.</p>
+                <div class="footericon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+        </div>
+        <h3>zcartlyshop@gmail.com</h3>
+        <p>2024 @ All Rights® Reserved by S Priyadharshini</p>
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
